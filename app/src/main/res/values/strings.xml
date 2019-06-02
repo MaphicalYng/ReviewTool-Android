@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ReviewTool</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_menu_setting">设置</string>
+    <string name="nav_menu_about">关于</string>
+    <string name="nav_menu_update">版本更新</string>
+    <string name="nav_menu_logout">退出登录</string>
+    <string name="main_toolbar_title">待考科目</string>
+    <string name="main_title">主界面</string>
+    <string name="login_username">昵称：</string>
+    <string name="login_subject">专业：</string>
+    <string name="login_title">新用户</string>
+    <string name="login_button">登录</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="nav_title_wait_exam">待考</string>
+    <string name="nav_title_plan">日程</string>
+    <string name="nav_title_subject">科目</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_event_info">EventInfo</string>
+    <string name="title_activity_plan_add">PlanAddActivity</string>
+    <string name="title_activity_studying">StudyingActivity</string>
+    <string name="title_activity_study_report">StudyReportActivity</string>
+</resources>

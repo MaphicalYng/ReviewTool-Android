@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorToolBar">#FFFFFF</color>
+    <color name="colorToolbarTitle">#000000</color>
+
+
+    <color name="colorLoginEditTextBackground">#CCCCCC</color>
+    <color name="colorText">#000000</color>
+    <color name="colorLoginBackground">#4F3968</color>
+    <color name="colorLoginInputHint">#000000</color>
+    <color name="colorLoginTitle">#000000</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="colorMainCircleSolid">#00000000</color>
+    <color name="colorMainCircleSolidPressed">#7C888888</color>
+    <color name="colorMainCircleStroke">#585858</color>
+    <color name="colorMainButtonBackground">#D8CFFF</color>
+    <color name="colorMainButtonBackgroundPressed">#9D95B8</color>
+    <color name="colorExamEvent">#FD5825</color>
+    <color name="colorReviewEvent">#62ADF3</color>
+    <color name="colorEventInfoLine">#9A4E4E4E</color>
+    <color name="colorPlanAddTextAreaBackground">#C5F0F0</color>
+    <color name="colorSubjectInfoLine">#50C0FF</color>
+    <color name="colorDialogBackground">#FFFFFF</color>
+    <color name="colorMainCircleBackground">#C8E2DB</color>
+</resources>

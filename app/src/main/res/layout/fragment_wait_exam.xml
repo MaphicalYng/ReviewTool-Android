@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.WaitExamFragment">
+
+    <ImageView
+        android:id="@+id/main_circle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/main_circle_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="考试倒计时"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/main_circle_button"
+        app:layout_constraintStart_toStartOf="@+id/main_circle_button"
+        app:layout_constraintTop_toTopOf="@+id/main_circle_button" />
+
+    <TextView
+        android:id="@+id/text_subject_exam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="没有考试好开心"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/main_circle_button"
+        app:layout_constraintStart_toStartOf="@+id/main_circle_button"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text_remain_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="0天0小时0秒"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/main_circle_button"
+        app:layout_constraintStart_toStartOf="@+id/main_circle_button"
+        app:layout_constraintTop_toBottomOf="@+id/text_subject_exam" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="点击开始学习"
+        app:layout_constraintEnd_toEndOf="@+id/main_circle_button"
+        app:layout_constraintStart_toStartOf="@+id/main_circle_button"
+        app:layout_constraintTop_toBottomOf="@+id/text_remain_time" />
+
+    <Button
+        android:id="@+id/button_other_subject"
+        style="@style/dark_blue_button"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:text="查看其他科目"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_circle_button" />
+
+</android.support.constraint.ConstraintLayout>

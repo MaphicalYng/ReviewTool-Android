@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.LoginActivity"
+    tools:showIn="@layout/activity_login"
+    android:background="@drawable/login_background">
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mtf_backgroundColor="@color/colorLoginEditTextBackground"
+        app:mtf_image="@drawable/login_id"
+        app:mtf_labelColor="@color/colorLoginInputHint"
+        app:mtf_openKeyboardOnFocus="true">
+
+        <EditText
+            android:id="@+id/login_edit_username"
+            android:layout_width="268dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/login_username"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorText" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:id="@+id/materialTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mtf_backgroundColor="@color/colorLoginEditTextBackground"
+        app:mtf_image="@drawable/login_id"
+        app:mtf_labelColor="@color/colorLoginInputHint"
+        app:mtf_openKeyboardOnFocus="true">
+
+        <EditText
+            android:id="@+id/login_edit_special"
+            android:layout_width="268dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/login_subject"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorText" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/login_title"
+        android:textColor="@color/colorLoginTitle"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:onClick="onLoginButtonClick"
+        style="@style/dialog_blue_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/login_button"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialTextField" />
+
+</android.support.constraint.ConstraintLayout>
